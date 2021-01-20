@@ -2,33 +2,64 @@
 <html>
   <head>
     <link rel="stylesheet" href="./stylesheets/style.css" type="text/css">
+    <link rel="stylesheet" href="./stylesheets/subpage.css" type="text/css">
   </head>
+
   <body>
-    <div id="wrapper">
-      <header>
-        Informatica - Usability
-      </header>
-      <nav>
-        <a href="index.html">Home</a>
-        <div id="submenu">
-        <a href="./1toegang.html">Richtlijnen</a>
-          <div id="menucontent">
-            <a href="./1toegang.html">Toegang</a>
-            <a href="./2geefcontrole.html">Controle</a>
-            <a id="selected">Veiligheid</a>
-            <a href="./4aansluiting.html">Aansluiting</a>
-          </div>
+    <header>
+      Informatica - Usability
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <div id="submenu">
+        <a class="selected">Richtlijnen</a>
+        <div id="menucontent">
+          <a href="./1toegang.html">Toegang</a>
+          <a href="./2geefcontrole.html">Controle</a>
+          <a class="selected">Veiligheid</a>
+          <a href="./4aansluiting.html">Aansluiting</a>
         </div>
-        <a href="./gebruikerstest.html">Gebruikerstest uitvoeren</a>
-        <a href="./opdrachtgever.html">Contact met opdrachtgever</a>
-      </nav>
+      </div>
+      <a href="./opdrachtgever.html">Contact met opdrachtgever</a>
+      <a href="./gebruikerstest.html">Gebruikerstest uitvoeren</a>
+    </nav>
 
-      <article id="content">
-      </article>
+    <article id="content">
+      <h1>
+        Veiligheid
+      </h1>
+      <p class="introduction">
+        <i>Veiligheid</i> kan je opdelen in drie delen: Grenzen, herstelmogelijkheden en hulp en ondersteuning. 
+      </p>
+      <div id="between">
+      </div>
+      <H2>Grenzen</H2>
+      <p>
+        Het is belangrijk dat je <i>grenzen</i> aangeeft voor de gebruiker. Hiermee zorg je ervoor dat de gebruiker zo min mogelijk fouten kan maken. Jij weet zelf wat de juiste manier is om je product te gebruiken, maar je mag er niet van uit gaan dat gebruikers je product op dezelfde manier zullen gebruiken. Als je controles en feedback inbouwt, kun je de gebruiker zoveel mogelijk de goede richting in sturen.
+      </p>
+      <h2>
+        Herstelmogelijkheden 
+      </h2>
+      <div class="img-container">
+        <img src="./images/undo.png">
+        <br>
+        <span class="caption">In Google Docs kun je een foutje ongedaanmaken</span>
+      </div>
+      <p>
+        De gebruiker is (waarschijnlijk) maar een mens en mensen maken wel eens fouten. Het kan daarom zijn dat iemand een actie ongedaan wilt maken. Een eenvoudig voorbeeld hiervan is de knop "Ongedaan maken" in Word of Google Docs. Maar ook in je browser heb je bijvoorbeeld de knop "Vorige pagina" voor als je perongeluk naar een verkeerde website gaat.<br>
+        In het "echte" leven zijn er ook voorbeelden te vinden van herstelmogelijkheden. Bijvoorbeeld de pinautomaat. Vroeger zou deze je hele pinpas "inslikken", waardoor je als gebruiker het gevoel kon krijgen dat je je pasje misschien nooit meer terug zou zien. Tegenwoordig zal het pasje een klein beetje uitsteken zodat je de controle terug krijgt. Je kan het pasje gewoon uit de automaat trekken.
 
-      <footer>
-        <p>Door Ayman El Gawhary, Thijn Schram, Christopher Kusumo Adi</p>
-      </footer>
-    </div>
+      </p>
+      <h2>Hulp en ondersteuning</h2>
+      <p>
+        Een eenvoudig product heeft eigenlijk geen hulpfunctie nodig. Als je met een eenvoudig programma werkt, zou eigenlijk alles duidelijk moeten zijn. Als dit niet zo is, zijn er bij het ontwerpen fouten of verkeerde keuzes gemaakt <br>
+        Mocht het toch nodig zijn om een handleiding te maken, dan moet je uitgaan van de behoefte van de gebruiker. In plaats van een lijst van knoppen met een beschrijving van die knop te maken, moet je antwoord geven op (mogelijke) vragen van de gebruiker. Zoals: 'hoe verander ik mijn wachtwoord?'<br>
+      </p>
+    </article>
+
+    <footer>
+      <p>Door Ayman El Gawhary, Thijn Schram, Christopher Kusumo Adi</p>
+      <p>V4C - Informatica 2021</p>
+    </footer>
   </body>
 </html>

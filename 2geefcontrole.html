@@ -2,35 +2,67 @@
 <html>
   <head>
     <link rel="stylesheet" href="./stylesheets/style.css" type="text/css">
+    <link rel="stylesheet" href="./stylesheets/subpage.css" type="text/css">
   </head>
   <body>
-    <div id="wrapper">
-      <header>
-        Informatica - Usability
-      </header>
-      <nav>
-        <a href="index.html">Home</a>
-        <div id="submenu">
-        <a href="./1toegang.html">Richtlijnen</a>
-          <div id="menucontent">
-            <a href="./1toegang.html">Toegang</a>
-            <a id="selected">Controle</a>
-            <a href="./3veiligheid.html">Veiligheid</a>
-            <a href="./4aansluiting.html">Aansluiting</a>
-          </div>
+    <header>
+      Informatica - Usability
+    </header>
+    <nav>
+      <a href="index.html">Home</a>
+      <div id="submenu">
+      <a class="selected">Richtlijnen</a>
+        <div id="menucontent">
+          <a href="./1toegang.html">Toegang</a>
+          <a class="selected">Controle</a>
+          <a href="./3veiligheid.html">Veiligheid</a>
+          <a href="./4aansluiting.html">Aansluiting</a>
         </div>
-        <a href="./gebruikerstest.html">Gebruikerstest uitvoeren</a>
-        <a href="./opdrachtgever.html">Contact met opdrachtgever</a>
-      </nav>
+      </div>
+      <a href="./opdrachtgever.html">Contact met opdrachtgever</a>
+      <a href="./gebruikerstest.html">Gebruikerstest uitvoeren</a>
+    </nav>
 
-      <article id="content">
-        <p>
-          C
-      </article>
+    <article id="content">
+      <h1>Controle</h1>
+      <p class="introduction">
+        <i>Controle</i> geven is dat je de gebruiker laat weten/voelen dat ze veel kunnen doen. Bijvoorbeeld door als je op een knop klikt je een reactie krijgt, zo geef je de gebruiker het gevoel dat ze echt iets aan het doen zijn. 
+      </p>
+      <div id="between">
+      </div>
+      <h2>
+        Status en feedback 
+      </h2>
+      <p>
+        <i>Status</i> is het deel van de website wat de gebruiker laat zien waar je nu bent en wat er gebeurt. Een gebruiker vind het fijn als hij kan zien dat de site reageert.<br>
+        Op je smartphone heb je bovenin het scherm indicatoren van bijvoorbeeld de batterij of je WIFI-verbinding. Deze vallen ook onder status. Op je PC kun je deze ook vinden, maar deze zitten (in Windows) rechtsonderin. 
+      </p>
+      <div class="img-container">
+        <img src="./images/loading.jpg" style="width:50%; height:50%">
+        <br>
+        <span class="caption">Een laadscherm is een vorm van feedback</span>
+      </div>
+      <p class="nexttoimg">
+        <i>Feedback</i> is ook belangrijk, zodat de gebruiker weet waar hij aan toe is. Als de gebruiker een bepaalde knop niet kan/mag indrukken, kun je hem "disabled" maken. Een voorbeeld hiervan is het "Richtlijnen" linkje in de navigatiebar bovenaan deze site, of het "Controle" linkje in het submenu onder Richtlijnen. Het is duidelijk dat deze links al geselecteerd zijn, dus heeft het geen zin om ze nog eens aan te klikken<br>
+        Een andere situatie waarin feedback belangrijk is is bijvoorbeeld laden. Als een onderdeel van een programma of website nog aan het laden is, moet de gebruiker daarop wachten en mensen doen dat niet graag. Het is dan belangrijk dat de gebruiker ziet waar hij op wacht en hoelang dat nog ongeveer duurt.
+      </p>
+      <div id="between">
+      </div>
+      <h2>
+        Foutmeldingen 
+      </h2>
+      <div class="img-container">
+        <img src="./images/error.png" style="width:20%; height:20%">
+      </div>
+      <p class="nexttoimg">
+        Een foutmelding is altijd vervelend. Het is dan ook geen goed idee om er een te tonen nadat de fout is gemaakt. Het is beter als een foutmelding zo vroeg mogelijk wordt getoond. Bijvoorbeeld als je een account maakt, en je twee keer je wachtwoord moet invoeren. Als de twee wachtwoorden niet overeen komen, is het beter als je dat direct laat weten en niet wacht totdat de gebruiker op "Aanmaken" klikt. <br>
+        Een foutmelding volledig voorkomen is ook niet mogelijk. In dat geval moet je voor goede foutafhandeling zorgen. De gebruiker moet niet het gevoel hebben dat hij de oorzaak van de fout is.
+      </p>
+    </article>
 
-      <footer>
-        <p>Door Ayman El Gawhary, Thijn Schram, Christopher Kusumo Adi</p>
-      </footer>
-    </div>
+    <footer>
+      <p>Door Ayman El Gawhary, Thijn Schram, Christopher Kusumo Adi</p>
+      <p>V4C - Informatica 2021</p>
+    </footer>
   </body>
 </html>

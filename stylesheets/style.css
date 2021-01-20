@@ -1,8 +1,7 @@
 /* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap');
 
-/* The following lines apply to ALL pages */
-/* These lines are copy-pasted across all css files */
+/* The following code applies to ALL pages */
 
 body {
   font-family: 'Andika New Basic', sans-serif;
@@ -31,6 +30,8 @@ nav a, #menucontent a {
   margin: 0;
   padding: 10px;
 }
+
+/* De termen design en usability horen bij elkaar. Met design bedoelen we de vormgeving en met usability de gebruiksvriendelijkheid. Bij het ontwerpen en ontwikkelen van een nieuw systeem houd je je bezig met zowel design als usability. Je zorgt dat een gebruiker zo effectief, efficiënt en comfortabel mogelijk kan werken met een systeem dat er aantrekkelijk uitziet. */
 
 #submenu:hover a {
   background-color: #021440;
@@ -69,9 +70,11 @@ footer {
   background-color: #021032;
   padding: 10px;
   color: white;
+  height: 100%;
 }
 
 article {
+  font-size: 13pt;
   background-color: #ffffff;
   padding: 20px;
   border-color: #021440;

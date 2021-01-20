@@ -1,4 +1,6 @@
-p ::inleiding_toegang{
+/* The following code applies to SUBPAGES */
+
+p::inleiding_toegang{
   border-width : 5px;
 
 }
@@ -9,10 +11,20 @@ p ::inleiding_toegang{
 
 .img-container {
   float: right;
-  width: 50%;
+  width: 30%;
+  padding: 0 50px 0 50px;
+  text-align: right;
 }
 
-img {
-  width: 40%;
-  height: 40%;
+.nexttoimg {
+  width: 70%;
+}
+
+.caption {
+  color: #333333;
+  font-style: italic;
+}
+
+.introduction {
+  font-weight: bold;
 }

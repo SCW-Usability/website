@@ -1,0 +1,18 @@
+p ::inleiding_toegang{
+  border-width : 5px;
+
+}
+
+#between{
+  padding: 65px;
+}
+
+.img-container {
+  float: right;
+  width: 50%;
+}
+
+img {
+  width: 40%;
+  height: 40%;
+}

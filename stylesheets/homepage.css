@@ -1,0 +1,16 @@
+#banner {
+  background-color: #021032;
+  font-size: 25pt;
+  padding: 10px;
+  color: white;
+}
+
+#banner h1 {
+  width: 100%;
+  text-align: center;
+  text-size: 12px;
+}
+
+#wrapper {
+  background-color: #063CBF; 
+}
